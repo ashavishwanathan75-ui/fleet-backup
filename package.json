@@ -1,0 +1,16 @@
+{
+  "name": "fleet-backup-api",
+  "version": "0.1.0",
+  "description": "Backend API for enterprise mobile device backup (contacts, call logs, media). Handles device enrollment and resumable chunked uploads so a dropped field connection resumes instead of restarting.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.3.0",
+    "uuid": "^9.0.1",
+    "cors": "^2.8.5"
+  }
+}
