@@ -9,7 +9,7 @@
 
 const crypto = require('crypto');
 
-const BASE_URL = 'https://fleet-backup.onrender.com/';
+const BASE_URL = 'https://fleet-backup.onrender.com';
 const CHUNK_SIZE = 64 * 1024; // 64KB chunks for this test (real app uses 2MB)
 
 const employees = [
